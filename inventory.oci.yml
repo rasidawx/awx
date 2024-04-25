@@ -1,4 +1,4 @@
 plugin: oracle.oci.oci
 regions: all
-fetch_db_hosts: true
-fetch_compute_hosts: true
+fetch_db_hosts: True
+fetch_compute_hosts: True

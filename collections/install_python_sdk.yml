@@ -1,4 +1,3 @@
----
 - name: Install python sdk
   collections:
     - oracle.oci

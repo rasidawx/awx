@@ -1,0 +1,15 @@
+---
+- name: Create a user 
+  hosts: client1
+  become: yes
+  tasks:
+  - name: Add user magzoub
+    user:
+      name: magzoub
+      shell: /bin/bash
+      home: /home/magzoub
+  - name: Add user fatima
+    user:
+      name: fatima
+      shell: /bin/bash
+      home: /home/fatima

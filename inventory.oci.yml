@@ -2,3 +2,7 @@ plugin: oracle.oci.oci
 regions: all
 fetch_db_hosts: True
 fetch_compute_hosts: True
+hostname_format_preferences:
+  - "display_name+'.oci.com'"
+  - "private_ip"
+  - "public_ip"

@@ -1,6 +1,6 @@
 ---
 - name: Create a user 
-  hosts: 10.0.40.112
+  hosts: Testing_CA.oci.com
   become: yes
   tasks:
   - name: Add user magzoub

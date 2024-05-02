@@ -3,6 +3,7 @@
   hosts: Testing_CA.oci.com
   collections:
     - oracle.oci
+  become: true
   tasks:
   - name: Add user magzoub
     user:

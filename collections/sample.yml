@@ -1,7 +1,6 @@
 ---
 - name: Create a user 
   hosts: Testing_CA.oci.com
-  become: yes
   collections:
     - oracle.oci
   tasks:

@@ -5,14 +5,14 @@
     - oracle.oci
   tasks:
   - name: Add user magzoub
-    user:
+    ansible.builtin.user:
       name: magzoub
       shell: /bin/sh
       home: /home/magzoub
       state: present
 
   - name: Add user fatima
-    user:
+    ansible.builtin.user:
       name: fatima
       shell: /bin/sh
       home: /home/fatima

@@ -3,7 +3,6 @@
   hosts: Local_repo.oci.com
   collections:
     - oracle.oci
-  become: true
   tasks:
   - name: Add user magzoub
     user:

@@ -2,7 +2,6 @@
 - name: Create a user 
   hosts: Testing_CA.oci.com
   become: yes
-  become_method: sudo
   tasks:
   - name: Add user magzoub
     user:

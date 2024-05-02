@@ -5,10 +5,13 @@
   - name: Add user magzoub
     user:
       name: magzoub
-      shell: /bin/bash
+      shell: /bin/sh
       home: /home/magzoub
+      state: present
+      
   - name: Add user fatima
     user:
       name: fatima
-      shell: /bin/bash
+      shell: /bin/sh
       home: /home/fatima
+      state: present

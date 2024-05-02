@@ -8,7 +8,6 @@
       shell: /bin/sh
       home: /home/magzoub
       state: present
-      become: no
 
   - name: Add user fatima
     user:
@@ -16,5 +15,3 @@
       shell: /bin/sh
       home: /home/fatima
       state: present
-      become: yes
-      become_method: su

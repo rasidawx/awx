@@ -1,6 +1,6 @@
 ---
 - name: Create a user 
-  hosts: Local_repo.oci.com
+  hosts: Testing_CA.oci.com
   collections:
     - oracle.oci
   tasks:
